@@ -1,0 +1,10 @@
+ktor:
+  application:
+    modules:
+      - xyz.ajraspi.cc.webservice.ApplicationKt.module
+  development: true
+  deployment:
+    host: 0.0.0.0
+    port: 8080
+    shutdownGracePeriod: 15000
+    shutdownTimeout: 30000
